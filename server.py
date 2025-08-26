@@ -68,4 +68,4 @@ def compile_code():
         return jsonify({"output": f"❌ Server Error: {str(e)}", "type": "error"}), 500
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run()
