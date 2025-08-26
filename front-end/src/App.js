@@ -19,7 +19,7 @@ function App() {
     setParseTree(null); // ✅ Reset parse tree before each run
 
     try {
-      const response = await fetch("http://localhost:5000/compile", {
+      const response = await fetch("https://custom-compiler-wkpy.onrender.com", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ code }),
