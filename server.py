@@ -66,6 +66,3 @@ def compile_code():
         return jsonify({"output": "❌ Timeout: Code took too long to execute", "type": "error"}), 400
     except Exception as e:
         return jsonify({"output": f"❌ Server Error: {str(e)}", "type": "error"}), 500
-
-if __name__ == '__main__':
-    app.run()
