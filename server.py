@@ -66,3 +66,8 @@ def compile_code():
         return jsonify({"output": "❌ Timeout: Code took too long to execute", "type": "error"}), 400
     except Exception as e:
         return jsonify({"output": f"❌ Server Error: {str(e)}", "type": "error"}), 500
+
+if __name__ == "__main__":
+    port = int(os.environ.get("PORT", 5000))
+    app.run(host="0.0.0.0", port=port)
+
