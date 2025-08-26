@@ -1,4 +1,4 @@
-# Custom Compiler
+# Custom Compiler <span style="float: right; font-weight: normal; font-size: 1rem;">[Live](https://custom-compiler.onrender.com)</span>
 
 Custom Compiler is an educational tool designed to help college students understand the working of a compiler by visualizing different compilation phases. It takes source code as input and shows the output of each phase of the compiler, along with parse tree visualizations for better comprehension.
 
