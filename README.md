@@ -8,7 +8,12 @@ Compilers can be complex to understand, especially for students new to programmi
 
 ## Features
 
-- **Input Code**: Submit source code to be compiled.
+- **Custom Language Keywords**  
+  This compiler uses a custom set of keywords for better understanding and ease of learning, for example:  
+  - `val` instead of `int`  
+  - `agar` and `nhi-to` instead of `if` and `else`  
+  - `bhejdo` instead of `return`  
+  - `prt` instead of `print`
 - **Phase-by-Phase Visualization**: See output for all major compiler phases:
   - Lexical analysis
   - Syntax analysis with parse tree visualization
